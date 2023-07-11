@@ -65,5 +65,7 @@
 &emsp;&emsp;void change_freedom(delete_temp)：用来实现约束条件的施加，划行划列。</br>
 &emsp;&emsp;void add_restrain(nature,i,restrain)：用来施加约束条件，nature表示约束条件的类型，nature为True表示为结点约束，nature为False表示为杆端约束。</br>
 &emsp;&emsp;void get_internal_force(None)：后处理函数，用来生成每一根杆件的杆端内力。</br>
-
 &emsp;&emsp;本程序使用教材例9-15进行了验证，但难免有其他方面的错误与不足，恳请批评指正！
+
+&emsp;&emsp;此外，还提供了c++实现矩阵位移法的程序，c++相比于python具有更高的运行速度和清晰度，但代码结构整体比python复杂，以供对比学习。详见</br>
+&emsp;&emsp;https://github.com/cyling250/MSDinSM-cpp</br>
